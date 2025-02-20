@@ -36,5 +36,9 @@ public class Estacion {
                 "direccion: " + this.getDireccion() + "\n" +
                 "numero de anclajes: " + this.getAnclajes();
     }
+
+    public int anclajesLibres() {
+        return getAnclajes();
+    }
 }
 
