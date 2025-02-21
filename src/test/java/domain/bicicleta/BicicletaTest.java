@@ -21,4 +21,12 @@ public class BicicletaTest {
         int id = bicicleta.getId();
         assertEquals(idExpected, id);
     }
+
+    @Test
+    public void test_toString() {
+
+        String id = "101";
+        String representacionId = bicicleta.toString();
+        assertEquals(id, representacionId);
+    }
 }
